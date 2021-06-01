@@ -1,7 +1,7 @@
 'use strict'
 
-alert("Bienvenido al Cuestionario del WoRIUH Abre la Consola para Jugar!!!");
-alert("Responde bien y Gana 1 punto por pregunta, de lo contrario perderas 1 punto y 1 de tus 4 vidas");
+Document.write("Bienvenido al Cuestionario del WoRIUH Abre la Consola para Jugar!!!");
+Document.write("Responde bien y Gana 1 punto por pregunta, de lo contrario perderas 1 punto y 1 de tus 4 vidas");
 
 var score = 0;
 var vidas = 4;
