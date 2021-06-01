@@ -1,15 +1,10 @@
 'use strict'
 
-Document.write("Bienvenido al Cuestionario del WoRIUH Abre la Consola para Jugar!!!");
-Document.write("Responde bien y Gana 1 punto por pregunta, de lo contrario perderas 1 punto y 1 de tus 4 vidas");
-
 var score = 0;
 var vidas = 4;
 
 function uno(){
-    console.log('%cPregunta n° 1: De que color es la franja media de la bandera argentina?', 'color: yellow;');
-    console.log("1. Verde \n2. Azul \n3.Blanca \n4. Roja");
-    var Respuesta1 = parseInt(prompt("Ingrese el numero de su Respuesta"));
+    var Respuesta1 = parseInt(prompt('%cPregunta n° 1: De que color es la franja media de la bandera argentina?\n1. Verde \n2. Azul \n3.Blanca \n4. Roja', "Ingrese el numero de su Respuesta"));
     if(Respuesta1 == 3){
         console.log('%cCORRECTO!!!', 'color: green;');
         score++;
